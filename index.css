@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.comments-section {
+    width: 90%;
+    max-width: 600px; /* Limit the maximum width */
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.add-comment {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.add-comment input[type="text"] {
+    flex: 1;
+    min-width: 200px; /* Ensure minimum width for input */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-comment button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffac81; /* Peach */
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-comment button:hover {
+    background-color: #ff8a5c; /* Darker Peach on hover */
+}
+
+.comment {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.comment button:hover {
+    background-color: #2980b9;
+}
+
+.reply-container {
+    margin-left: 20px;
+}
+
+.reply-input-container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .comments-section {
+        width: 95%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .add-comment {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .add-comment input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px; /* Add margin below the input for spacing */
+    }
+
+    .add-comment button {
+        width: 100%;
+    }
+
+    .comment {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .comments-section {
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .comment {
+        margin: 15px 0;
+        padding: 10px;
+    }
+
+    .comment button {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .reply-container {
+        margin-left: 10px;
+    }
+}
