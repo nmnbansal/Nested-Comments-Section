@@ -6,12 +6,24 @@ The user can add comments directly.
 The user can add a reply to any comment.
 The user can add a reply to any comment which is a reply.
 Example of how the comments should look:
+
+![image](https://github.com/nmnbansal/Nested-Comments-Section/assets/59911232/1a6404de-1eb8-4f56-a1c8-f97b0a19ffde)
+
+
 Nested Comments Default
 
 When the user clicks on “Add a reply”, they get an input field to type in their comment.
+
+![image](https://github.com/nmnbansal/Nested-Comments-Section/assets/59911232/b0417229-73e5-472b-a677-1a44a1b0ce60)
+
+
 Replying to Comment
 
 After clicking on submit, the new comment is added to the comments section and displayed in the right place.
+
+![image](https://github.com/nmnbansal/Nested-Comments-Section/assets/59911232/e64eac95-c6c7-4c4e-b5b8-30361ebf720a)
+
+
 Final Nested Comments
 
 Requirements:
